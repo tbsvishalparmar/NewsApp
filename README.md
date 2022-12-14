@@ -1,5 +1,5 @@
 # NewsApp
-demo app for news.
+demo app for news in MVVM clean architecture pattern.
 
 ## Dashbord Designs
 <img height="480px" src="Screenshot/Dashbord 1.png">
