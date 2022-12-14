@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.newsapiclient.MainActivity">
 
 
     <androidx.fragment.app.FragmentContainerView
@@ -18,13 +18,25 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnv_news"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@color/search_background"
-        app:itemTextColor="@color/list_text"
-        app:itemIconTint="@color/list_text"
-        app:menu="@menu/bottom_menu" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnv_news"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/bottom_background"
+            app:itemTextColor="@color/white"
+            app:itemIconTint="@color/white"
+            app:menu="@menu/bottom_menu"
+            app:elevation="10dp"
+            app:itemIconSize="20dp"
+            app:itemPaddingTop="10dp"
+            app:itemPaddingBottom="10dp"/>
+
+
+    </FrameLayout>
+
 </LinearLayout>

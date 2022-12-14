@@ -3,15 +3,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/layout_background"
-    tools:context=".NewsFragment">
+    tools:context="com.newsapiclient.MainActivity">
 
-    <SearchView
-        android:id="@+id/svNews"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/search_background" />
+        app:cardBackgroundColor="@color/search_background"
+        android:layout_marginHorizontal="20dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp"
+        >
+        <SearchView
+            android:id="@+id/svNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/search_background"
+            />
+
+    </androidx.cardview.widget.CardView>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvNews"

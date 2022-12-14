@@ -9,7 +9,7 @@ import android.webkit.WebViewClient
 import androidx.navigation.fragment.navArgs
 import com.newsapiclient.presentation.viewmodel.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
-import com.technobrain.newsapiclient.databinding.FragmentInfoBinding
+import com.newsapiclient.databinding.FragmentInfoBinding
 
 class InfoFragment : Fragment() {
     private lateinit var fragmentInfoBinding: FragmentInfoBinding
