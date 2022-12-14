@@ -6,10 +6,10 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import androidx.lifecycle.*
-import com.technobrain.newsapiclient.data.model.APIResponse
-import com.technobrain.newsapiclient.data.model.Article
-import com.technobrain.newsapiclient.data.util.Resource
-import com.technobrain.newsapiclient.domain.usecase.*
+import com.newsapiclient.data.model.APIResponse
+import com.newsapiclient.data.model.Article
+import com.newsapiclient.data.util.Resource
+import com.newsapiclient.domain.usecase.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.Exception

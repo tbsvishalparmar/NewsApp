@@ -1,7 +1,7 @@
 package com.newsapiclient.data.db
 
 import androidx.room.*
-import com.technobrain.newsapiclient.data.model.Article
+import com.newsapiclient.data.model.Article
 import kotlinx.coroutines.flow.Flow
 
 @Dao

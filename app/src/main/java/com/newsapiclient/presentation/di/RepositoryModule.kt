@@ -1,9 +1,9 @@
 package com.newsapiclient.presentation.di
 
-import com.technobrain.newsapiclient.data.repository.NewsRepositoryImpl
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsLocalDataSource
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsRemoteDataSource
-import com.technobrain.newsapiclient.domain.repository.NewsRepository
+import com.newsapiclient.data.repository.NewsRepositoryImpl
+import com.newsapiclient.data.repository.dataSource.NewsLocalDataSource
+import com.newsapiclient.data.repository.dataSource.NewsRemoteDataSource
+import com.newsapiclient.domain.repository.NewsRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

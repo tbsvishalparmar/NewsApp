@@ -1,7 +1,7 @@
 package com.newsapiclient.presentation.di
 
-import com.technobrain.newsapiclient.BuildConfig
-import com.technobrain.newsapiclient.data.api.NewsAPIService
+import com.newsapiclient.BuildConfig
+import com.newsapiclient.data.api.NewsAPIService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

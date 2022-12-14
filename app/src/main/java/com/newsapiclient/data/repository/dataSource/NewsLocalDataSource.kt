@@ -1,6 +1,6 @@
 package com.newsapiclient.data.repository.dataSource
 
-import com.technobrain.newsapiclient.data.model.Article
+import com.newsapiclient.data.model.Article
 import kotlinx.coroutines.flow.Flow
 
 interface NewsLocalDataSource {

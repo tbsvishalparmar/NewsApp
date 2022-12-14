@@ -1,8 +1,8 @@
 package com.newsapiclient.presentation.di
 
-import com.technobrain.newsapiclient.data.db.ArticleDAO
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsLocalDataSource
-import com.technobrain.newsapiclient.data.repository.dataSourceImpl.NewsLocalDataSourceImpl
+import com.newsapiclient.data.db.ArticleDAO
+import com.newsapiclient.data.repository.dataSource.NewsLocalDataSource
+import com.newsapiclient.data.repository.dataSourceImpl.NewsLocalDataSourceImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

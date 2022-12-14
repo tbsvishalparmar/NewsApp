@@ -5,10 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.technobrain.newsapiclient.databinding.ActivityMainBinding
-import com.technobrain.newsapiclient.presentation.adapter.NewsAdapter
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModel
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModelFactory
+import com.newsapiclient.databinding.ActivityMainBinding
+import com.newsapiclient.presentation.adapter.NewsAdapter
+import com.newsapiclient.presentation.viewmodel.NewsViewModel
+import com.newsapiclient.presentation.viewmodel.NewsViewModelFactory
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

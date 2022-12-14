@@ -1,7 +1,7 @@
 package com.newsapiclient.data.api
 
-import com.technobrain.newsapiclient.BuildConfig
-import com.technobrain.newsapiclient.data.model.APIResponse
+import com.newsapiclient.BuildConfig
+import com.newsapiclient.data.model.APIResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -9,9 +9,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.technobrain.newsapiclient.databinding.FragmentSavedBinding
-import com.technobrain.newsapiclient.presentation.adapter.NewsAdapter
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModel
+import com.newsapiclient.databinding.FragmentSavedBinding
+import com.newsapiclient.presentation.adapter.NewsAdapter
+import com.newsapiclient.presentation.viewmodel.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 
 

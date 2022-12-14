@@ -1,7 +1,7 @@
 package com.newsapiclient.data.db
 
 import androidx.room.TypeConverter
-import com.technobrain.newsapiclient.data.model.Source
+import com.newsapiclient.data.model.Source
 
 class Converters {
     @TypeConverter

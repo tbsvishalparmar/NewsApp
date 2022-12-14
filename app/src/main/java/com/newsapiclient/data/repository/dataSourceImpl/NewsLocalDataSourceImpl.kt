@@ -1,8 +1,8 @@
 package com.newsapiclient.data.repository.dataSourceImpl
 
-import com.technobrain.newsapiclient.data.db.ArticleDAO
-import com.technobrain.newsapiclient.data.model.Article
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsLocalDataSource
+import com.newsapiclient.data.db.ArticleDAO
+import com.newsapiclient.data.model.Article
+import com.newsapiclient.data.repository.dataSource.NewsLocalDataSource
 import kotlinx.coroutines.flow.Flow
 
 class NewsLocalDataSourceImpl(

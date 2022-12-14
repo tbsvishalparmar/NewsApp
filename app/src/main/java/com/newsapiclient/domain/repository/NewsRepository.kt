@@ -1,8 +1,8 @@
 package com.newsapiclient.domain.repository
 
-import com.technobrain.newsapiclient.data.model.APIResponse
-import com.technobrain.newsapiclient.data.model.Article
-import com.technobrain.newsapiclient.data.util.Resource
+import com.newsapiclient.data.model.APIResponse
+import com.newsapiclient.data.model.Article
+import com.newsapiclient.data.util.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface NewsRepository{

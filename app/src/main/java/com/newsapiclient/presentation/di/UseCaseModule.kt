@@ -1,7 +1,7 @@
 package com.newsapiclient.presentation.di
 
-import com.technobrain.newsapiclient.domain.repository.NewsRepository
-import com.technobrain.newsapiclient.domain.usecase.*
+import com.newsapiclient.domain.repository.NewsRepository
+import com.newsapiclient.domain.usecase.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

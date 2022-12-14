@@ -1,6 +1,6 @@
 package com.newsapiclient.presentation.di
 
-import com.technobrain.newsapiclient.presentation.adapter.NewsAdapter
+import com.newsapiclient.presentation.adapter.NewsAdapter
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

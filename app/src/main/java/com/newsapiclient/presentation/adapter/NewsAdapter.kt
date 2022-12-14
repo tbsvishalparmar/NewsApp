@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.technobrain.newsapiclient.data.model.Article
-import com.technobrain.newsapiclient.databinding.NewsListItemBinding
+import com.newsapiclient.data.model.Article
+import com.newsapiclient.databinding.NewsListItemBinding
 import com.bumptech.glide.Glide
 
 class NewsAdapter:RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {

@@ -3,7 +3,7 @@ package com.newsapiclient.data.db
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.technobrain.newsapiclient.data.model.Article
+import com.newsapiclient.data.model.Article
 
 @Database(
     entities = [Article::class],

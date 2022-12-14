@@ -1,8 +1,8 @@
 package com.newsapiclient.presentation.di
 
 import android.app.Application
-import com.technobrain.newsapiclient.domain.usecase.*
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModelFactory
+import com.newsapiclient.domain.usecase.*
+import com.newsapiclient.presentation.viewmodel.NewsViewModelFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

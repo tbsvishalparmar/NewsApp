@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
 import androidx.navigation.fragment.navArgs
-import com.technobrain.newsapiclient.databinding.FragmentInfoBinding
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModel
+import com.newsapiclient.presentation.viewmodel.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
+import com.technobrain.newsapiclient.databinding.FragmentInfoBinding
 
 class InfoFragment : Fragment() {
     private lateinit var fragmentInfoBinding: FragmentInfoBinding
@@ -20,7 +20,7 @@ class InfoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(com.technobrain.newsapiclient.R.layout.fragment_info, container, false)
+        return inflater.inflate(com.newsapiclient.R.layout.fragment_info, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

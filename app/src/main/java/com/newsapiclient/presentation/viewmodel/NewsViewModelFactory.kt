@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.CreationExtras
-import com.technobrain.newsapiclient.domain.usecase.*
+import com.newsapiclient.domain.usecase.*
 
 class NewsViewModelFactory(
     private val app:Application,

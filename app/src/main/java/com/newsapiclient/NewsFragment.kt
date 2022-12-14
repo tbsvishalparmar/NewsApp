@@ -12,9 +12,9 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.technobrain.newsapiclient.databinding.FragmentNewsBinding
-import com.technobrain.newsapiclient.presentation.adapter.NewsAdapter
-import com.technobrain.newsapiclient.presentation.viewmodel.NewsViewModel
+import com.newsapiclient.databinding.FragmentNewsBinding
+import com.newsapiclient.presentation.adapter.NewsAdapter
+import com.newsapiclient.presentation.viewmodel.NewsViewModel
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -62,7 +62,7 @@ class NewsFragment : Fragment() {
         viewModel.getNewsHeadLines(country,page)
         viewModel.newsHeadLines.observe(viewLifecycleOwner,{response->
             when(response){
-               is com.technobrain.newsapiclient.data.util.Resource.Success->{
+               is com.newsapiclient.data.util.Resource.Success->{
 
                      hideProgressBar()
                      response.data?.let {
@@ -76,14 +76,14 @@ class NewsFragment : Fragment() {
                          isLastPage = page == pages
                      }
                }
-                is com.technobrain.newsapiclient.data.util.Resource.Error->{
+                is com.newsapiclient.data.util.Resource.Error->{
                    hideProgressBar()
                    response.message?.let {
                        Toast.makeText(activity,"An error occurred : $it", Toast.LENGTH_LONG).show()
                    }
                 }
 
-                is com.technobrain.newsapiclient.data.util.Resource.Loading->{
+                is com.newsapiclient.data.util.Resource.Loading->{
                     showProgressBar()
                 }
 
@@ -178,7 +178,7 @@ class NewsFragment : Fragment() {
    fun viewSearchedNews(){
        viewModel.searchedNews.observe(viewLifecycleOwner,{response->
            when(response){
-               is com.technobrain.newsapiclient.data.util.Resource.Success->{
+               is com.newsapiclient.data.util.Resource.Success->{
 
                    hideProgressBar()
                    response.data?.let {
@@ -192,14 +192,14 @@ class NewsFragment : Fragment() {
                        isLastPage = page == pages
                    }
                }
-               is com.technobrain.newsapiclient.data.util.Resource.Error->{
+               is com.newsapiclient.data.util.Resource.Error->{
                    hideProgressBar()
                    response.message?.let {
                        Toast.makeText(activity,"An error occurred : $it", Toast.LENGTH_LONG).show()
                    }
                }
 
-               is com.technobrain.newsapiclient.data.util.Resource.Loading->{
+               is com.newsapiclient.data.util.Resource.Loading->{
                    showProgressBar()
                }
 

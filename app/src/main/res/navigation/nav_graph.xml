@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.technobrain.newsapiclient.NewsFragment"
+        android:name="com.newsapiclient.NewsFragment"
         android:label="fragment_news"
         tools:layout="@layout/fragment_news" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedFragment"
-        android:name="com.technobrain.newsapiclient.SavedFragment"
+        android:name="com.newsapiclient.SavedFragment"
         android:label="fragment_saved"
         tools:layout="@layout/fragment_saved" >
         <action
@@ -30,6 +30,6 @@
         tools:layout="@layout/fragment_info" >
         <argument
             android:name="selected_article"
-            app:argType="com.technobrain.newsapiclient.data.model.Article" />
+            app:argType="com.newsapiclient.data.model.Article" />
     </fragment>
 </navigation>

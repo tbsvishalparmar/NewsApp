@@ -1,6 +1,6 @@
 package com.newsapiclient.data.repository.dataSource
 
-import com.technobrain.newsapiclient.data.model.APIResponse
+import com.newsapiclient.data.model.APIResponse
 import retrofit2.Response
 
 interface NewsRemoteDataSource {

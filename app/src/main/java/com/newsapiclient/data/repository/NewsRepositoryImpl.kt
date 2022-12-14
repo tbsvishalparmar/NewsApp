@@ -1,11 +1,11 @@
 package com.newsapiclient.data.repository
 
-import com.technobrain.newsapiclient.data.model.APIResponse
-import com.technobrain.newsapiclient.data.model.Article
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsLocalDataSource
-import com.technobrain.newsapiclient.data.repository.dataSource.NewsRemoteDataSource
-import com.technobrain.newsapiclient.data.util.Resource
-import com.technobrain.newsapiclient.domain.repository.NewsRepository
+import com.newsapiclient.data.model.APIResponse
+import com.newsapiclient.data.model.Article
+import com.newsapiclient.data.repository.dataSource.NewsLocalDataSource
+import com.newsapiclient.data.repository.dataSource.NewsRemoteDataSource
+import com.newsapiclient.data.util.Resource
+import com.newsapiclient.domain.repository.NewsRepository
 import kotlinx.coroutines.flow.Flow
 import retrofit2.Response
 
